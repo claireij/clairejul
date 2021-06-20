@@ -1,4 +1,4 @@
-// Bandsintown URLs
+// Bandsintown URLs (for security reasons these are left empty on Github)
 const artistInfoUrl = '';
 const upcomingEvents = '';
 const pastEvents = '';
