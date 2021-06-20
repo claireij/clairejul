@@ -1,7 +1,7 @@
 // Bandsintown URLs
-const artistInfoUrl = 'https://rest.bandsintown.com/artists/Claire%20Jul?app_id=faaa21d40aa43ed659cc8f2df895e218';
-const upcomingEvents = 'https://rest.bandsintown.com/artists/Claire%20Jul/events?app_id=faaa21d40aa43ed659cc8f2df895e218&date=upcoming';
-const pastEvents = 'https://rest.bandsintown.com/artists/Claire%20Jul/events?app_id=faaa21d40aa43ed659cc8f2df895e218&date=past';
+const artistInfoUrl = '';
+const upcomingEvents = '';
+const pastEvents = '';
 
 // Function to format date of upcoming and past events
 const formatDate = (date) => {
@@ -68,7 +68,7 @@ const formatDate = (date) => {
     const year = date.slice(0,4);
 
     const time = date.slice(11, 16);
-    
+
     return `${dayString}, ${dayNumber}. ${month} ${year} | ${time}`;
 }
 
